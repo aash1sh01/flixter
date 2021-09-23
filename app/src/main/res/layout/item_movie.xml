@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
 
+    >
     <ImageView
         android:id="@+id/ivPoster"
         android:layout_width="150dp"
@@ -13,7 +14,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="2dp"
         android:layout_marginTop="2dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        />
 
     <TextView
         android:id="@+id/tvTitle"
@@ -27,6 +29,7 @@
         android:layout_toEndOf="@+id/ivPoster"
         android:text="TextView"
         android:textSize="24sp"
+        android:textColor="@color/white"
         tools:text="Jurassic Hunt" />
 
     <TextView
@@ -40,5 +43,6 @@
         android:layout_marginEnd="9dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:text="TextView"
+        android:textColor="@color/white"
         tools:text='overview: "Female adventurer Parker joins a crew of male trophy hunters in a remote wilderness park. Their goal: slaughter genetically recreated dinosaurs for sport using rifles, arrows, and grenades. After their guide is killed by raptors, the team tries to escape the park – but the hunters quickly become the hunted. Even worse, the park’s manager suspects Parker of being a spy and sends a hit squad after her. This battle’s about to become primitive!", ' />
 </RelativeLayout>
